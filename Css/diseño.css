@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    background: url(../imagen/fondo2.jpg); 
+    text-align: center;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 50;
+}
+
+button{
+    padding: 15px 150px ;
+    /* Solo de un valor (4 lados), dos valores (2, arriba e abajo, 2, izquierda y derecha) */
+    margin: 12px ;
+    /* Borde */
+    font-size: 18px;
+    /* Tamaño de la fuente */
+    background: #f7baba;
+    /* Fondo del boton */
+    color: #000000;
+    /* Color de la letra */
+    border-radius: 12px;
+    /* Tamaño del borde*/
+    border: 2px solid #ffffff;
+    /* dashed- lineas punteadas
+        dodded- puntos
+        solid- toda la linea */
+    cursor: pointer;
+    /*  (Cuando se pone el cursor y este cambia) */
+    transition: .5s;
+    /* Tiempo de la transición mas pausada */
+}
+
+button:hover{
+    background: #f07ad2;
+    /* Cambia el color de fondo del boton, cuando se pasa el cursor */
+    padding: 13px 155px;
+    /* Cuando se pone el cursor encima, cambia el tamaño */
+    border-radius: 0;
+
+}
+h2{
+    color: #000000;
+}
